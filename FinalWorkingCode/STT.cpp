@@ -18,7 +18,7 @@ const char* stt_wav_path = "/stt_recording.wav";
 const int headerSize = 44;
 
 // Deepgram Key
-const char* deepgramApiKey = "f46583d458c5f1687814fca8f49869f8955f4138";
+const char* deepgramApiKey = "Your Deep Gram Api";
 
 void installMicDriver() {
   Serial.println("[Mic] Initializing I2S Port 0 for recording...");
